@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AdvancedGrassGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataName>Grass-PX01-Tropical Sec</DataName>
+  <Priority>4</Priority>
+  <GroundType>1</GroundType>
+  <Density>
+    <x>10</x>
+    <y>10</y>
+  </Density>
+  <GrassObjects>
+    <GrassInfo>
+      <ObjectId>0</ObjectId>
+      <HeightSide>BOTTOM</HeightSide>
+      <Chance>1</Chance>
+      <AlignToTerrain>true</AlignToTerrain>
+      <AlignmentClamp>0.3</AlignmentClamp>
+      <Name>Herbe_PX01_2</Name>
+      <AlignementClampGetSet>0.3</AlignementClampGetSet>
+      <Uv>
+        <x>0</x>
+        <y>0</y>
+        <position>
+          <x>0</x>
+          <y>0</y>
+        </position>
+        <center>
+          <x>0</x>
+          <y>0</y>
+        </center>
+        <min>
+          <x>0</x>
+          <y>0</y>
+        </min>
+        <max>
+          <x>0</x>
+          <y>0</y>
+        </max>
+        <width>0</width>
+        <height>0</height>
+        <size>
+          <x>0</x>
+          <y>0</y>
+        </size>
+        <xMin>0</xMin>
+        <yMin>0</yMin>
+        <xMax>0</xMax>
+        <yMax>0</yMax>
+      </Uv>
+    </GrassInfo>
+    <GrassInfo>
+      <ObjectId>1</ObjectId>
+      <HeightSide>BOTTOM</HeightSide>
+      <Chance>1</Chance>
+      <AlignToTerrain>true</AlignToTerrain>
+      <AlignmentClamp>0.3</AlignmentClamp>
+      <Name>Herbe_PX01_3</Name>
+      <AlignementClampGetSet>0.3</AlignementClampGetSet>
+      <Uv>
+        <x>0</x>
+        <y>0</y>
+        <position>
+          <x>0</x>
+          <y>0</y>
+        </position>
+        <center>
+          <x>0</x>
+          <y>0</y>
+        </center>
+        <min>
+          <x>0</x>
+          <y>0</y>
+        </min>
+        <max>
+          <x>0</x>
+          <y>0</y>
+        </max>
+        <width>0</width>
+        <height>0</height>
+        <size>
+          <x>0</x>
+          <y>0</y>
+        </size>
+        <xMin>0</xMin>
+        <yMin>0</yMin>
+        <xMax>0</xMax>
+        <yMax>0</yMax>
+      </Uv>
+    </GrassInfo>
+    <GrassInfo>
+      <ObjectId>2</ObjectId>
+      <HeightSide>BOTTOM</HeightSide>
+      <Chance>1</Chance>
+      <AlignToTerrain>true</AlignToTerrain>
+      <AlignmentClamp>0.3</AlignmentClamp>
+      <Name>Herbe_PX01_4</Name>
+      <AlignementClampGetSet>0.3</AlignementClampGetSet>
+      <Uv>
+        <x>0</x>
+        <y>0</y>
+        <position>
+          <x>0</x>
+          <y>0</y>
+        </position>
+        <center>
+          <x>0</x>
+          <y>0</y>
+        </center>
+        <min>
+          <x>0</x>
+          <y>0</y>
+        </min>
+        <max>
+          <x>0</x>
+          <y>0</y>
+        </max>
+        <width>0</width>
+        <height>0</height>
+        <size>
+          <x>0</x>
+          <y>0</y>
+        </size>
+        <xMin>0</xMin>
+        <yMin>0</yMin>
+        <xMax>0</xMax>
+        <yMax>0</yMax>
+      </Uv>
+    </GrassInfo>
+  </GrassObjects>
+  <ObjectsRequirements>
+    <Container>
+      <Noises>
+        <BiomeNoise>
+          <Name>GrassScale</Name>
+          <IsBiome>true</IsBiome>
+          <SeedOffset>0</SeedOffset>
+          <NoiseType>Perlin</NoiseType>
+          <Octaves>1</Octaves>
+          <Frequency>0.1</Frequency>
+          <YFrequency>1</YFrequency>
+          <Persistence>1</Persistence>
+          <Lacunarity>1</Lacunarity>
+          <CraterSize>0.1</CraterSize>
+          <CraterHeight>0.1</CraterHeight>
+          <PreCalculations>
+            <PrecalculationInformations>
+              <Name>ZeroToOneOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>0</Scale>
+              <Bias>1</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+          </PreCalculations>
+        </BiomeNoise>
+        <BiomeNoise>
+          <Name>GrassTest</Name>
+          <IsBiome>true</IsBiome>
+          <SeedOffset>0</SeedOffset>
+          <NoiseType>Perlin</NoiseType>
+          <Octaves>10</Octaves>
+          <Frequency>0.1</Frequency>
+          <YFrequency>1</YFrequency>
+          <Persistence>-1.4</Persistence>
+          <Lacunarity>0.78</Lacunarity>
+          <CraterSize>0.1</CraterSize>
+          <CraterHeight>0.1</CraterHeight>
+          <PreCalculations>
+            <PrecalculationInformations>
+              <Name>ZeroToOneOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>0</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+          </PreCalculations>
+        </BiomeNoise>
+      </Noises>
+      <NoisesPreset>
+        <NoisePreset>
+          <Name>Main</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName />
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container />
+        </NoisePreset>
+        <NoisePreset>
+          <Name>Desert</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName />
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container />
+        </NoisePreset>
+        <NoisePreset>
+          <Name>GrassScale</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName>GrassScale</NoiseName>
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container>Main</MainNoise_Container>
+        </NoisePreset>
+        <NoisePreset>
+          <Name>New Noise</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName />
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container>Main</MainNoise_Container>
+        </NoisePreset>
+        <NoisePreset>
+          <Name>GrassTest</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName>GrassTest</NoiseName>
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container>Main</MainNoise_Container>
+        </NoisePreset>
+      </NoisesPreset>
+    </Container>
+    <NoisesObjects>
+      <NoiseObjects>
+        <NoiseName>Tropical</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>grass10</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass57</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass55</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass9</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>P1210741</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>4</GroundType>
+            <VoxelType>FLUID</VoxelType>
+            <MinHeight>-4</MinHeight>
+            <MaxHeight>1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>10</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>P1210762</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>4</GroundType>
+            <VoxelType>FLUID</VoxelType>
+            <MinHeight>-4</MinHeight>
+            <MaxHeight>1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>10</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass52</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>100</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Desert</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>Grass7</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>2</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Grass2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>20</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Grass3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>2</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Grass5</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>2</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>TI_Grass_02_DE</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Desert</NoisePreset>
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>TI_Grass_03</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Desert</NoisePreset>
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>70</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Snow</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>OldGrassS_01</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>WinterPlantF_01</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>WinterPlantF_02</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>ReedS_01</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>80</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>80</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Forest</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>WhiteFlowers</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>10</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass52</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass9</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>10</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass10</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>10</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass55</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass57</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name />
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>foliage_tallgrass_08_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>100</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Ground</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Plains</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Valleys</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>Herbe_PX01_2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>12000</Chance>
+            <MaxChance>20000</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Herbe_PX01_3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>12000</Chance>
+            <MaxChance>20000</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Herbe_PX01_4</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>12000</Chance>
+            <MaxChance>20000</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>12000</x>
+          <y>20000</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Mountains</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Ice</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>GroundTropical</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>WhiteFlowers</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass9</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass10</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-2</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-2</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass55</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass57</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>P1210741</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>4</GroundType>
+            <VoxelType>FLUID</VoxelType>
+            <MinHeight>-4</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-4</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>3</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>P1210762</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>4</GroundType>
+            <VoxelType>FLUID</VoxelType>
+            <MinHeight>-4</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-4</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>3</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Grass2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>grass11</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>g3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>foliage_tallgrass_03_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>foliage_tallgrass_06_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>foliage_tallgrass_12_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>foliage_tallgrass_09_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>foliage_tallgrass_01_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Plants_B</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Coverground1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Coverground2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-2</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>foliage_groundcover_02a_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>foliage_groundcover_03a_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-2</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>100</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>GroundFantasy</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>GroundTropicalSec</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>Grass3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Valley2</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>Herbe_PX01_2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>12000</Chance>
+            <MaxChance>20000</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Herbe_PX01_3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>12000</Chance>
+            <MaxChance>20000</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Herbe_PX01_4</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>12000</Chance>
+            <MaxChance>20000</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.2</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>12000</x>
+          <y>20000</y>
+        </Density>
+      </NoiseObjects>
+    </NoisesObjects>
+  </ObjectsRequirements>
+  <RequirementNoises>
+    <Noises>
+      <BiomeNoise>
+        <Name>GrassScale</Name>
+        <IsBiome>true</IsBiome>
+        <SeedOffset>0</SeedOffset>
+        <NoiseType>Perlin</NoiseType>
+        <Octaves>1</Octaves>
+        <Frequency>0.1</Frequency>
+        <YFrequency>1</YFrequency>
+        <Persistence>1</Persistence>
+        <Lacunarity>1</Lacunarity>
+        <CraterSize>0.1</CraterSize>
+        <CraterHeight>0.1</CraterHeight>
+        <PreCalculations>
+          <PrecalculationInformations>
+            <Name>ZeroToOneOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>0</Scale>
+            <Bias>1</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+        </PreCalculations>
+      </BiomeNoise>
+      <BiomeNoise>
+        <Name>GrassTest</Name>
+        <IsBiome>true</IsBiome>
+        <SeedOffset>0</SeedOffset>
+        <NoiseType>Perlin</NoiseType>
+        <Octaves>10</Octaves>
+        <Frequency>0.1</Frequency>
+        <YFrequency>1</YFrequency>
+        <Persistence>-1.4</Persistence>
+        <Lacunarity>0.78</Lacunarity>
+        <CraterSize>0.1</CraterSize>
+        <CraterHeight>0.1</CraterHeight>
+        <PreCalculations>
+          <PrecalculationInformations>
+            <Name>ZeroToOneOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>0</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+        </PreCalculations>
+      </BiomeNoise>
+    </Noises>
+    <NoisesPreset>
+      <NoisePreset>
+        <Name>Main</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName />
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container />
+      </NoisePreset>
+      <NoisePreset>
+        <Name>Desert</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName />
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container />
+      </NoisePreset>
+      <NoisePreset>
+        <Name>GrassScale</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName>GrassScale</NoiseName>
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container>Main</MainNoise_Container>
+      </NoisePreset>
+      <NoisePreset>
+        <Name>New Noise</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName />
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container>Main</MainNoise_Container>
+      </NoisePreset>
+      <NoisePreset>
+        <Name>GrassTest</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName>GrassTest</NoiseName>
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container>Main</MainNoise_Container>
+      </NoisePreset>
+    </NoisesPreset>
+  </RequirementNoises>
+</AdvancedGrassGenerator>

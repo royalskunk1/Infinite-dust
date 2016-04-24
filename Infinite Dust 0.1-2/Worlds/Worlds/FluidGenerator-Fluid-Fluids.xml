@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<FluidGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataName>Fluid-Fluids</DataName>
+  <Priority>1</Priority>
+  <Fluids>
+    <FluidInformation>
+      <VoxelName>Lava</VoxelName>
+      <VoxelID>12</VoxelID>
+      <Viscosity>10</Viscosity>
+      <MinVolumeToFlow>100</MinVolumeToFlow>
+      <Evaporation>6</Evaporation>
+      <CanFlow>true</CanFlow>
+      <BiomeNames>
+        <string>Volcano</string>
+        <string>VolcanoTransition</string>
+      </BiomeNames>
+      <RequiredNames />
+      <EnableMesh>true</EnableMesh>
+      <EnableMeshCombiner>true</EnableMeshCombiner>
+      <GenerateUV>true</GenerateUV>
+      <GenerateNormals>false</GenerateNormals>
+      <GenerateTangents>false</GenerateTangents>
+    </FluidInformation>
+    <FluidInformation>
+      <VoxelName>Water</VoxelName>
+      <VoxelID>4</VoxelID>
+      <Viscosity>4</Viscosity>
+      <MinVolumeToFlow>0</MinVolumeToFlow>
+      <Evaporation>6</Evaporation>
+      <CanFlow>true</CanFlow>
+      <BiomeNames />
+      <RequiredNames />
+      <EnableMesh>true</EnableMesh>
+      <EnableMeshCombiner>true</EnableMeshCombiner>
+      <GenerateUV>true</GenerateUV>
+      <GenerateNormals>true</GenerateNormals>
+      <GenerateTangents>false</GenerateTangents>
+    </FluidInformation>
+  </Fluids>
+  <GenerateOcean>true</GenerateOcean>
+  <YOffset>0</YOffset>
+</FluidGenerator>
