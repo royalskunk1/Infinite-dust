@@ -1,0 +1,2890 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AdvancedDetailsGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataName>Details-PX01-Tropical Sec</DataName>
+  <Priority>3</Priority>
+  <Density>
+    <x>25</x>
+    <y>100</y>
+  </Density>
+  <DetailsObjects />
+  <TopDensity>
+    <x>20</x>
+    <y>100</y>
+  </TopDensity>
+  <ObjectsRequirements>
+    <Container>
+      <Noises>
+        <BiomeNoise>
+          <Name>Main</Name>
+          <IsBiome>true</IsBiome>
+          <SeedOffset>0</SeedOffset>
+          <NoiseType>Perlin</NoiseType>
+          <Octaves>1</Octaves>
+          <Frequency>0.03</Frequency>
+          <YFrequency>1</YFrequency>
+          <Persistence>1</Persistence>
+          <Lacunarity>1</Lacunarity>
+          <CraterSize>0.1</CraterSize>
+          <CraterHeight>0.1</CraterHeight>
+          <PreCalculations />
+        </BiomeNoise>
+      </Noises>
+      <NoisesPreset>
+        <NoisePreset>
+          <Name>Main</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName>Main</NoiseName>
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container />
+        </NoisePreset>
+      </NoisesPreset>
+    </Container>
+    <NoisesObjects>
+      <NoiseObjects>
+        <NoiseName>Tropical</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>Cat_palm1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Cat_palm2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Dypsis_palm1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Kentia_palm2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>oleander1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Philodendron1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Philodendron2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant4</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant10</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant12</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant11</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant15</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB4</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB5</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB6</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_a</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_b</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_c</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_d</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_e</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_g</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bamboo1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-2</MinDepth>
+            <MaxDepth>1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bamboo2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-2</MinDepth>
+            <MaxDepth>1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bamboo3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-2</MinDepth>
+            <MaxDepth>1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bush_5b</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bush_5a</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_f</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bush7</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>trop_shrub_05</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Cannabis_flowering</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>trop_shrub_01</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>ivy_plant</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Icicles_01</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Icicles_02</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Icicles_03</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Tree3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Tree4</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Tree5</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Tree7</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Rock1C</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Rock1D</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset>Main</NoisePreset>
+            <MinNoise>0</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Ivy1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Ivy2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal1_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal2_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal3_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal4_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Shrooms1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bigshrooms1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stall_small1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stall_small2</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Crystal1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots2</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots3</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>70</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Ground</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Plains</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Valleys</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Mountains</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Desert</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>liana2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>ivy_plant</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>30</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Forest</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>ivy_plant</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>50</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>trop_shrub_05</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bush_5b</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Ivy1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Ivy2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal1_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal2_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal3_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal4_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Shrooms1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bigshrooms1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stall_small1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stall_small2</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Crystal1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots2</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots3</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>60</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Snow</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>Stal1_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal2_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal3_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal4_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>WGP_S_01_a </Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>40</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Ice</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>DesertRocks</NoiseName>
+        <Objects />
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>Rivers</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>rock_tiny_a</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>oleander1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Rock1D</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Rock1C</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Cat_palm2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>-1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>40</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>GroundTropical</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>Stall_small2</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Cat_palm2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Dypsis_palm1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Kentia_palm2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>oleander1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-1</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Philodendron1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-2</MinHeight>
+            <MaxHeight>1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-2</MinDepth>
+            <MaxDepth>1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>plant10</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-1</MinHeight>
+            <MaxHeight>100</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-1</MinDepth>
+            <MaxDepth>1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB6</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-2</MinHeight>
+            <MaxHeight>1</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-2</MinDepth>
+            <MaxDepth>1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.3</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>liana3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.3</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>ivy_plant</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.3</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_a</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_b</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_e</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>rock_tiny_g</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-3</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-3</MinDepth>
+            <MaxDepth>1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>PlantsB3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-3</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-3</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Tree3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Tree4</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Tree5</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bush_5a</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bamboo1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-3</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-3</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bamboo3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-3</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-3</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.4</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Rock1C</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Rock1D</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>true</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Ivy1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal1_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal2_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal3_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stal4_LOD1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Shrooms1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.3</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.3</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Roots3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.3</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Bigshrooms1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>Stall_small1</Name>
+            <RequiredNoise>Cave</RequiredNoise>
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>-1</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>30</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0.5</MinNoise>
+            <MaxNoise>1</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>roots1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>5</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>roots2</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>5</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+          <NoiseObject>
+            <Name>roots3</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>-999</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>-999</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>5</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>50</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+      <NoiseObjects>
+        <NoiseName>GroundTropicalSec</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>Rock1</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>0</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>9999</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>9999</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>100</Chance>
+            <MaxChance>100</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>10</x>
+          <y>100</y>
+        </Density>
+      </NoiseObjects>
+    </NoisesObjects>
+  </ObjectsRequirements>
+  <RequirementNoises>
+    <Noises>
+      <BiomeNoise>
+        <Name>Main</Name>
+        <IsBiome>true</IsBiome>
+        <SeedOffset>0</SeedOffset>
+        <NoiseType>Perlin</NoiseType>
+        <Octaves>1</Octaves>
+        <Frequency>0.03</Frequency>
+        <YFrequency>1</YFrequency>
+        <Persistence>1</Persistence>
+        <Lacunarity>1</Lacunarity>
+        <CraterSize>0.1</CraterSize>
+        <CraterHeight>0.1</CraterHeight>
+        <PreCalculations />
+      </BiomeNoise>
+    </Noises>
+    <NoisesPreset>
+      <NoisePreset>
+        <Name>Main</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName>Main</NoiseName>
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container />
+      </NoisePreset>
+    </NoisesPreset>
+  </RequirementNoises>
+</AdvancedDetailsGenerator>

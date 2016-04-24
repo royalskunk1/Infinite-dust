@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<HeightMapGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataName>Height</DataName>
+  <Priority>0</Priority>
+  <WorldOffset>
+    <x>3679</x>
+    <y>0</y>
+    <z>4162</z>
+  </WorldOffset>
+  <UndergroundIndestructible>true</UndergroundIndestructible>
+  <Ground0Y>0</Ground0Y>
+  <GenerateWaterfall>false</GenerateWaterfall>
+  <WaterfallRandomHeight>12</WaterfallRandomHeight>
+  <HeightLayers>
+    <HeightMapLayer>
+      <VoxelName>Lava</VoxelName>
+      <MinDepth>2</MinDepth>
+      <MaxDepth>5</MaxDepth>
+      <MinEmpty>0</MinEmpty>
+      <MaxEmpty>5</MaxEmpty>
+      <NoiseName>Volcanocenter</NoiseName>
+      <RequiredNoise />
+      <Volume>2</Volume>
+      <VoxelID>12</VoxelID>
+    </HeightMapLayer>
+    <HeightMapLayer>
+      <VoxelName>Lava</VoxelName>
+      <MinDepth>2</MinDepth>
+      <MaxDepth>5</MaxDepth>
+      <MinEmpty>0</MinEmpty>
+      <MaxEmpty>5</MaxEmpty>
+      <NoiseName>Volcanoriver</NoiseName>
+      <RequiredNoise />
+      <Volume>2</Volume>
+      <VoxelID>12</VoxelID>
+    </HeightMapLayer>
+  </HeightLayers>
+  <DesiredPosition>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </DesiredPosition>
+  <Container>
+    <Noises>
+      <BiomeNoise>
+        <Name>GroundTropicalSec</Name>
+        <IsBiome>true</IsBiome>
+        <SeedOffset>0</SeedOffset>
+        <NoiseType>Turbulence</NoiseType>
+        <Octaves>2</Octaves>
+        <Frequency>0.005</Frequency>
+        <YFrequency>1</YFrequency>
+        <Persistence>1</Persistence>
+        <Lacunarity>1</Lacunarity>
+        <CraterSize>0.1</CraterSize>
+        <CraterHeight>0.1</CraterHeight>
+        <PreCalculations>
+          <PrecalculationInformations>
+            <Name>ScaleOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>2</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+        </PreCalculations>
+      </BiomeNoise>
+      <BiomeNoise>
+        <Name>Valleys</Name>
+        <IsBiome>true</IsBiome>
+        <SeedOffset>0</SeedOffset>
+        <NoiseType>Perlin</NoiseType>
+        <Octaves>2</Octaves>
+        <Frequency>0.002</Frequency>
+        <YFrequency>0</YFrequency>
+        <Persistence>1</Persistence>
+        <Lacunarity>2</Lacunarity>
+        <CraterSize>0.1</CraterSize>
+        <CraterHeight>0.1</CraterHeight>
+        <PreCalculations>
+          <PrecalculationInformations>
+            <Name>BiasOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>0</Scale>
+            <Bias>0.3</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+          <PrecalculationInformations>
+            <Name>ScaleOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>8</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+          <PrecalculationInformations>
+            <Name>ClampOutput</Name>
+            <LowerBound>4</LowerBound>
+            <UpperBound>7</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>0</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+        </PreCalculations>
+      </BiomeNoise>
+      <BiomeNoise>
+        <Name>Mountains</Name>
+        <IsBiome>true</IsBiome>
+        <SeedOffset>1</SeedOffset>
+        <NoiseType>FastRidgedMultifractal</NoiseType>
+        <Octaves>3</Octaves>
+        <Frequency>0.005</Frequency>
+        <YFrequency>0</YFrequency>
+        <Persistence>1.4</Persistence>
+        <Lacunarity>2</Lacunarity>
+        <CraterSize>0.1</CraterSize>
+        <CraterHeight>0.1</CraterHeight>
+        <PreCalculations>
+          <PrecalculationInformations>
+            <Name>BiasOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>0</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+          <PrecalculationInformations>
+            <Name>ScaleOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>50</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+        </PreCalculations>
+      </BiomeNoise>
+      <BiomeNoise>
+        <Name>Valley2</Name>
+        <IsBiome>true</IsBiome>
+        <SeedOffset>1</SeedOffset>
+        <NoiseType>Perlin</NoiseType>
+        <Octaves>3</Octaves>
+        <Frequency>0.001</Frequency>
+        <YFrequency>0</YFrequency>
+        <Persistence>1.4</Persistence>
+        <Lacunarity>2</Lacunarity>
+        <CraterSize>0.1</CraterSize>
+        <CraterHeight>0.1</CraterHeight>
+        <PreCalculations>
+          <PrecalculationInformations>
+            <Name>BiasOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>0</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+          <PrecalculationInformations>
+            <Name>ScaleOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>10</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+        </PreCalculations>
+      </BiomeNoise>
+      <BiomeNoise>
+        <Name>Mountains2</Name>
+        <IsBiome>true</IsBiome>
+        <SeedOffset>1</SeedOffset>
+        <NoiseType>FastTurbulence</NoiseType>
+        <Octaves>8</Octaves>
+        <Frequency>0.005</Frequency>
+        <YFrequency>0</YFrequency>
+        <Persistence>1.4</Persistence>
+        <Lacunarity>2</Lacunarity>
+        <CraterSize>0.1</CraterSize>
+        <CraterHeight>0.1</CraterHeight>
+        <PreCalculations>
+          <PrecalculationInformations>
+            <Name>BiasOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>0</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+          <PrecalculationInformations>
+            <Name>ScaleOutput</Name>
+            <LowerBound>0</LowerBound>
+            <UpperBound>0</UpperBound>
+            <Exponent>0</Exponent>
+            <Scale>3</Scale>
+            <Bias>0</Bias>
+            <Roughtness>0</Roughtness>
+            <ScaleInput>
+              <x>0</x>
+              <y>0</y>
+              <z>0</z>
+            </ScaleInput>
+            <OptionalNoise1 />
+            <OptionalNoise2 />
+            <NameNoises />
+            <ControlPoints />
+          </PrecalculationInformations>
+        </PreCalculations>
+      </BiomeNoise>
+    </Noises>
+    <NoisesPreset>
+      <NoisePreset>
+        <Name>Main</Name>
+        <Computation>ADD</Computation>
+        <NoiseName />
+        <PresetA>GroundTropicalSec</PresetA>
+        <PresetB>635345161597361131</PresetB>
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container />
+      </NoisePreset>
+      <NoisePreset>
+        <Name>Valleys</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName>Valleys</NoiseName>
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container />
+      </NoisePreset>
+      <NoisePreset>
+        <Name>Mountains</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName>Mountains</NoiseName>
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container />
+      </NoisePreset>
+      <NoisePreset>
+        <Name>GroundTropicalSec</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName>GroundTropicalSec</NoiseName>
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container>Main</MainNoise_Container>
+      </NoisePreset>
+      <NoisePreset>
+        <Name>635345161597361131</Name>
+        <Computation>LARGER_OUTPUT</Computation>
+        <NoiseName />
+        <PresetA>635535106019255077</PresetA>
+        <PresetB>Valley2</PresetB>
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container />
+      </NoisePreset>
+      <NoisePreset>
+        <Name>Valley2</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName>Valley2</NoiseName>
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container>Main</MainNoise_Container>
+      </NoisePreset>
+      <NoisePreset>
+        <Name>635535106019255077</Name>
+        <Computation>LARGER_OUTPUT</Computation>
+        <NoiseName />
+        <PresetA>Valleys</PresetA>
+        <PresetB>635555513723628894</PresetB>
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container>Main</MainNoise_Container>
+      </NoisePreset>
+      <NoisePreset>
+        <Name>635555513723628894</Name>
+        <Computation>LARGER_OUTPUT</Computation>
+        <NoiseName />
+        <PresetA>Mountains</PresetA>
+        <PresetB>Mountains2</PresetB>
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container>Main</MainNoise_Container>
+      </NoisePreset>
+      <NoisePreset>
+        <Name>Mountains2</Name>
+        <Computation>NOISE</Computation>
+        <NoiseName>Mountains2</NoiseName>
+        <PresetA />
+        <PresetB />
+        <PresetC />
+        <EdgeFalloff>0</EdgeFalloff>
+        <Bounds>
+          <x>0</x>
+          <y>0</y>
+        </Bounds>
+        <NameNoises />
+        <ControlPoints />
+        <InvertTerrace>false</InvertTerrace>
+        <Noises_Container>
+          <Noises />
+          <NoisesPreset />
+        </Noises_Container>
+        <MainNoise_Container />
+      </NoisePreset>
+    </NoisesPreset>
+  </Container>
+  <NoiseTypes>
+    <Container>
+      <Noises>
+        <BiomeNoise>
+          <Name>GroundTropicalSec</Name>
+          <IsBiome>true</IsBiome>
+          <SeedOffset>0</SeedOffset>
+          <NoiseType>Turbulence</NoiseType>
+          <Octaves>2</Octaves>
+          <Frequency>0.005</Frequency>
+          <YFrequency>1</YFrequency>
+          <Persistence>1</Persistence>
+          <Lacunarity>1</Lacunarity>
+          <CraterSize>0.1</CraterSize>
+          <CraterHeight>0.1</CraterHeight>
+          <PreCalculations>
+            <PrecalculationInformations>
+              <Name>ScaleOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>2</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+          </PreCalculations>
+        </BiomeNoise>
+        <BiomeNoise>
+          <Name>Valleys</Name>
+          <IsBiome>true</IsBiome>
+          <SeedOffset>0</SeedOffset>
+          <NoiseType>Perlin</NoiseType>
+          <Octaves>2</Octaves>
+          <Frequency>0.002</Frequency>
+          <YFrequency>0</YFrequency>
+          <Persistence>1</Persistence>
+          <Lacunarity>2</Lacunarity>
+          <CraterSize>0.1</CraterSize>
+          <CraterHeight>0.1</CraterHeight>
+          <PreCalculations>
+            <PrecalculationInformations>
+              <Name>BiasOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>0</Scale>
+              <Bias>0.3</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+            <PrecalculationInformations>
+              <Name>ScaleOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>8</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+            <PrecalculationInformations>
+              <Name>ClampOutput</Name>
+              <LowerBound>4</LowerBound>
+              <UpperBound>7</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>0</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+          </PreCalculations>
+        </BiomeNoise>
+        <BiomeNoise>
+          <Name>Mountains</Name>
+          <IsBiome>true</IsBiome>
+          <SeedOffset>1</SeedOffset>
+          <NoiseType>FastRidgedMultifractal</NoiseType>
+          <Octaves>3</Octaves>
+          <Frequency>0.005</Frequency>
+          <YFrequency>0</YFrequency>
+          <Persistence>1.4</Persistence>
+          <Lacunarity>2</Lacunarity>
+          <CraterSize>0.1</CraterSize>
+          <CraterHeight>0.1</CraterHeight>
+          <PreCalculations>
+            <PrecalculationInformations>
+              <Name>BiasOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>0</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+            <PrecalculationInformations>
+              <Name>ScaleOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>50</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+          </PreCalculations>
+        </BiomeNoise>
+        <BiomeNoise>
+          <Name>Valley2</Name>
+          <IsBiome>true</IsBiome>
+          <SeedOffset>1</SeedOffset>
+          <NoiseType>Perlin</NoiseType>
+          <Octaves>3</Octaves>
+          <Frequency>0.001</Frequency>
+          <YFrequency>0</YFrequency>
+          <Persistence>1.4</Persistence>
+          <Lacunarity>2</Lacunarity>
+          <CraterSize>0.1</CraterSize>
+          <CraterHeight>0.1</CraterHeight>
+          <PreCalculations>
+            <PrecalculationInformations>
+              <Name>BiasOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>0</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+            <PrecalculationInformations>
+              <Name>ScaleOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>10</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+          </PreCalculations>
+        </BiomeNoise>
+        <BiomeNoise>
+          <Name>Mountains2</Name>
+          <IsBiome>true</IsBiome>
+          <SeedOffset>1</SeedOffset>
+          <NoiseType>FastTurbulence</NoiseType>
+          <Octaves>8</Octaves>
+          <Frequency>0.005</Frequency>
+          <YFrequency>0</YFrequency>
+          <Persistence>1.4</Persistence>
+          <Lacunarity>2</Lacunarity>
+          <CraterSize>0.1</CraterSize>
+          <CraterHeight>0.1</CraterHeight>
+          <PreCalculations>
+            <PrecalculationInformations>
+              <Name>BiasOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>0</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+            <PrecalculationInformations>
+              <Name>ScaleOutput</Name>
+              <LowerBound>0</LowerBound>
+              <UpperBound>0</UpperBound>
+              <Exponent>0</Exponent>
+              <Scale>3</Scale>
+              <Bias>0</Bias>
+              <Roughtness>0</Roughtness>
+              <ScaleInput>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </ScaleInput>
+              <OptionalNoise1 />
+              <OptionalNoise2 />
+              <NameNoises />
+              <ControlPoints />
+            </PrecalculationInformations>
+          </PreCalculations>
+        </BiomeNoise>
+      </Noises>
+      <NoisesPreset>
+        <NoisePreset>
+          <Name>Main</Name>
+          <Computation>ADD</Computation>
+          <NoiseName />
+          <PresetA>GroundTropicalSec</PresetA>
+          <PresetB>635345161597361131</PresetB>
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container />
+        </NoisePreset>
+        <NoisePreset>
+          <Name>Valleys</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName>Valleys</NoiseName>
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container />
+        </NoisePreset>
+        <NoisePreset>
+          <Name>Mountains</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName>Mountains</NoiseName>
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container />
+        </NoisePreset>
+        <NoisePreset>
+          <Name>GroundTropicalSec</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName>GroundTropicalSec</NoiseName>
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container>Main</MainNoise_Container>
+        </NoisePreset>
+        <NoisePreset>
+          <Name>635345161597361131</Name>
+          <Computation>LARGER_OUTPUT</Computation>
+          <NoiseName />
+          <PresetA>635535106019255077</PresetA>
+          <PresetB>Valley2</PresetB>
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container />
+        </NoisePreset>
+        <NoisePreset>
+          <Name>Valley2</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName>Valley2</NoiseName>
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container>Main</MainNoise_Container>
+        </NoisePreset>
+        <NoisePreset>
+          <Name>635535106019255077</Name>
+          <Computation>LARGER_OUTPUT</Computation>
+          <NoiseName />
+          <PresetA>Valleys</PresetA>
+          <PresetB>635555513723628894</PresetB>
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container>Main</MainNoise_Container>
+        </NoisePreset>
+        <NoisePreset>
+          <Name>635555513723628894</Name>
+          <Computation>LARGER_OUTPUT</Computation>
+          <NoiseName />
+          <PresetA>Mountains</PresetA>
+          <PresetB>Mountains2</PresetB>
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container>Main</MainNoise_Container>
+        </NoisePreset>
+        <NoisePreset>
+          <Name>Mountains2</Name>
+          <Computation>NOISE</Computation>
+          <NoiseName>Mountains2</NoiseName>
+          <PresetA />
+          <PresetB />
+          <PresetC />
+          <EdgeFalloff>0</EdgeFalloff>
+          <Bounds>
+            <x>0</x>
+            <y>0</y>
+          </Bounds>
+          <NameNoises />
+          <ControlPoints />
+          <InvertTerrace>false</InvertTerrace>
+          <Noises_Container>
+            <Noises />
+            <NoisesPreset />
+          </Noises_Container>
+          <MainNoise_Container />
+        </NoisePreset>
+      </NoisesPreset>
+    </Container>
+    <NoisesObjects>
+      <NoiseObjects>
+        <NoiseName>GroundTropicalSec</NoiseName>
+        <Objects>
+          <NoiseObject>
+            <Name>PX01-TropicalSec</Name>
+            <RequiredNoise />
+            <VoxelName />
+            <GroundType>15</GroundType>
+            <VoxelType>OPAQUE</VoxelType>
+            <MinHeight>0</MinHeight>
+            <MaxHeight>0</MaxHeight>
+            <AddHeightNoise>false</AddHeightNoise>
+            <MinDepth>0</MinDepth>
+            <MaxDepth>0</MaxDepth>
+            <AddDepthNoise>false</AddDepthNoise>
+            <Chance>0</Chance>
+            <MaxChance>0</MaxChance>
+            <NoisePreset />
+            <MinNoise>0</MinNoise>
+            <MaxNoise>0</MaxNoise>
+            <AutomaticNoiseCreation>false</AutomaticNoiseCreation>
+          </NoiseObject>
+        </Objects>
+        <Density>
+          <x>0</x>
+          <y>0</y>
+        </Density>
+      </NoiseObjects>
+    </NoisesObjects>
+  </NoiseTypes>
+</HeightMapGenerator>
