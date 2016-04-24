@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\InfiniteDust\Script\Terrain Engine\StartWorld.cs">
+    <Files>
+      <File FileName="Assets\InfiniteDust\Script\Menu\SliderConfig.cs" Line="115" Column="29" />
+      <File FileName="Assets\InfiniteDust\Script\Terrain Engine\StartWorld.cs" Line="107" Column="1" />
+      <File FileName="Assets\Extra\Illogika\HeavyDutyInspector\Examples\Scripts\ExampleComplexHeaders.cs" Line="27" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

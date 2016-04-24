@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6AE2E7BE-D614-0C55-9822-41F83A7F4064}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolOutOfControl.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\ContrastGain.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\CustomLighting.cginc" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Rain Mobile.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_HB U5.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01OutOfControl.txt" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Kuwahara.shader" />
+     <None Include="Assets\Extra\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsIBLDiffuse.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Extra\Aluna\Vegetation.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped_Glass.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunZoom.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Standard\Triplanar3NoiseSplatLocal.shader" />
+     <None Include="Assets\Extra\ReliefPack\verinfo.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_2VertexPaint_HB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\3rdShooter\Shaders\ProgressBar.shader" />
+     <None Include="Assets\Extra\HighQualityFlag\PC2anims\flag_storm.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Metallic\UVFreeStandardMetallicTopBottom.shader" />
+     <None Include="Assets\Standard Assets\Fonts\defused\defused_readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SystemOFFShooter.txt" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Non-Dynamic Light Clouds Mobile.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\_Effects (Mobile, Reduced Overdraw)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\BleachBypass.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\WarpJump.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\GaussianBlur.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\ChannelClamper.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDead.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\RTP_TessShadowCaster.cginc" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerCrouch.txt" />
+     <None Include="Assets\Extra\BEP2\Environment\FX\River\Water\WaterShader.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Light Clouds (Unity 5).shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverCrouch.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_HB.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraOutOfControl.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Touchbending v4.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ArtilleryController.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\CustomizableShader2Layers(PBL)_geomblend.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Overdraw.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3NoiseDNSSLocal.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Reload.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegun.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponZoom.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_2VertexPaint.shader" />
+     <None Include="Assets\Extra\Desert\Afghanistan\Origin\Tools\Blend SM2.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_2VertexPaint.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingRight.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernCameraZoom.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\Cursor.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\OldSchoolInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernInput.txt" />
+     <None Include="Assets\Extra\Toon_Level_Kit\ToonResources\Shaders\Vegetation.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ConfigurableCore.cginc" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Technicolor.shader" />
+     <None Include="Assets\Items.xml" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PerspOldWeapon.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Specular\UVFreeLegacySpecular.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ReliefTerrainPMTriplanarStandalone_geomblend.shader" />
+     <None Include="Assets\Extra\Nature Pack\enviro_shaders\Double_bumped_shader.shader" />
+     <None Include="Assets\TerrainEngine\Datas\engine.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Grass\GrassShader.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_2VertexPaint U5.shader" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Dynamic Light Clouds Mobile.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar2DN.shader" />
+     <None Include="Assets\Extra\ReliefPack\Models\ReliefTerrain\Michael O. demo stuff\courtesy info.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Bump.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\InterlacePatternAdditive.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar2DNS.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Content\Levels\SkyCity\CustomShaders\DiffuseVertexColor.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\Billboard.shader" />
+     <None Include="Assets\Extra\CodeStage\AdvancedFPSCounter\Legacy\readme.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Grenade01\WeaponGrenade01Rewield.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Includes\AfsPBSLighting.cginc" />
+     <None Include="Assets\TerrainEngine\Datas\pipes.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MafiaCamera.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\README.txt" />
+     <None Include="Assets\Extra\SSAO Pro\Readme.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerFreeze.txt" />
+     <None Include="Assets\Extra\Illogika\ScriptTemplates\100-C# Named Script-NewNamedBehaviourScript.cs.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\StompingCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\TurretInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernWeaponCrouch.txt" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\LightMappedDiffusetDetail.shader" />
+     <None Include="Assets\TerrainEngine\Datas\SmallWoodPit.txt" />
+     <None Include="Assets\Extra\Desert\Afghanistan\Origin\Tools\Blend SM3.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Reload.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Demos\00 Shared Assets\Original Meshes\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CowboyCamera.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\2xParallaxMapped\GeometryBlend_PM_2VertexPaint_HB_COMPLEX.shader" />
+     <None Include="Assets\Extra\Aluna\MapAluna\Meshes\Vegetation\Plante_Musicales\Mesh\Fram_plantes_musicales.txt" />
+     <None Include="Assets\Extra\Illogika\HeavyDutyInspector\Readme.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Specular Terrain\UVFreeLegacyTerrainSpecular-FirstPass.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Glitch.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Threshold.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ParallaxMapped\GeometryBlend_PM_HB_COMPLEX.shader" />
+     <None Include="Assets\Extra\Pirates Island\_origin\Tools\Blend SM3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Extra\NeverLand\TerrainToolkit\Read me.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\FastVignette.shader" />
+     <None Include="Assets\Extra\AtmosphericScattering\Features\AtmosphericScattering\Shaders\UnityStandardSurface.cginc" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Mist (Unity 5).shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\LightsEmmissive.shader" />
+     <None Include="Assets\Extra\Illogika\ScriptTemplates\102-C# Custom Keyword Editor-NewKeywordEditorScript.cs.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Includes\AfsBuiltin3xTreeLibrary.cginc" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkDeferred.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\Additive.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\GeometryBlend_BumpedDiffuseOverlay.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Content\Art\Body\Animations\_README_Animations.txt" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\ShadowProjection.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SystemOFFWeapon.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\WhiteBalance.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\Burnout.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullLeft.txt" />
+     <None Include="Assets\InfiniteDust\Shaders\Menu\Background\Nebula.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Internal\ReliefTerrain2GeometryBlendBase.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\Heat.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\GradientRamp.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Cut Out Diffuse.shader" />
+     <None Include="Assets\Extra\Nature Pack 2\Tools scripts\Blend SM2.shader" />
+     <None Include="Assets\Extra\Quantum Theory\Polyworld\Shaders\VertexColors\VertexLitVertexColors.shader" />
+     <None Include="Assets\Extra\CritterPack\Shaders\EnAn_2sided_transparent_cutout.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ParallaxMapped\GeometryBlend_PM_HB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\AlphaCutoutCheapFallback.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ControllerCrouch.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverRun.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\Skybox\Fantasy_sky_box\Sky_Scripts_Shaders\Skybox.shader" />
+     <None Include="Assets\Extra\Colorful FX\Editor\Shaders\_DynamicLookup.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\Car.shader" />
+     <None Include="Assets\Extra\LavaPackage\Water (Pro Only)\Water3\Sources\Shaders\FX-Water3.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Includes\AfsWavingGrass.cginc" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernCamera.txt" />
+     <None Include="Assets\Extra\SSAO Pro\Resources\SSAOPro_v2.shader" />
+     <None Include="Assets\Français.xml" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\SCurveContrast.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverZoom.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MafiaShooter.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload2.txt" />
+     <None Include="Assets\Extra\Toon_Level_Kit\ToonResources\Shaders\Rim.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\InterlacePatternBlend.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Particle Add.shader" />
+     <None Include="Assets\Extra\Sonic Ether\Natural Bloom\Shaders\SENaturalBloomAndDirtyLens.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraReload.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\CustomizableShader1Layer(PBL).shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SmackController.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3NoiseDNSSSplatLocal.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\RainSplash.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullUpLeft.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\VertexControl\ReliefTerrainPMTriplanarStandalone.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar2NoiseBlendDNS.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\UnderWater\Shader\Underwater.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Raindrops v4.shader" />
+     <None Include="Assets\Standard Assets\Shaders\TargetAlwaysVisible.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SystemOFFInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\WallFacingWeapon.txt" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_2VertexPaint.shader" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Snow Mobile.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Glitch.cginc" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Standard\Triplanar3NoiseVertical.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\Persp1999Weapon.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\FreezeController.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingDown.txt" />
+     <None Include="Assets\Extra\Aluna\LuminesantVegetation.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CowboyController.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\PM&amp;Caustics.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Grenade01\WeaponGrenade01Attack.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\Persp1999Input.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunCrouch.txt" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDefault.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\ReliefTerrain-FirstPass.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Procedural Skbox.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Extra\SMAA\Shaders\SMAA.shader" />
+     <None Include="Assets\Extra\Sonic Ether\Natural Bloom\Shaders\SEParticlesAdditive.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Specular\UVFreeStandardSpecularTopBottom.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Default.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolZoom.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\Persp1999Camera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Zoom.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernController.txt" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\WarpTunnelDistortion.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\GeometryBlend_BumpedDetailSnow.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\GlassReflect.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Sharpen.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolverZoom.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Specular Terrain\UVFreeTerrainStandardSpecular-AddPass.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverReload.txt" />
+     <None Include="Assets\Extra\TerrainEngine\ProjectSettings\ProjectVersion.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\3rdShooter\Shaders\FadedAddSmooth.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingCamera.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Transparent.shader" />
+     <None Include="Assets\TerrainEngine\ConstructionKit\Shaders\TransparentDSide.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar1DNS.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\RealtimeReflectionInWaterFlow.shader" />
+     <None Include="Assets\Extra\Alien Monster\alien-animations-list.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Knife01\KnifeAttackToDown.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\Trail.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Blend.shader" />
+     <None Include="Assets\Extra\Aluna\VegetationNoLight.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MaceInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\WallFacingCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Input\InputClimb.txt" />
+     <None Include="Assets\Extra\Winter Nature Pack\Tools\2-sided Alpha Cutout.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Idle.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\ShooterShotgun01Zoom.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\ScreenRefract.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3DN.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\CustomizableShader1Layer(PBL)_geomblend.shader" />
+     <None Include="Assets\TerrainEngine\Datas\House04.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_2VertexPaint_HB.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsSimpleTree v4.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PivotMuzzleWeapon.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Vibrance.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Tree\BumpTranslucencyShadow.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\ShadowCasterAvoid.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3D.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_FlowMap_2VertexPaint U5.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\DefaultCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PerspModernInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDown.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Opaque.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Specular Terrain\UVFreeTerrainStandardSpecular-Base.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar1PalD.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorLeaves.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\BumpedSpecular&amp;Caustics.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\RTP_Base.cginc" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\TextShaderZ.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Grass\WavingDoublePass.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Specular Terrain\UVFreeTerrainStandardspecular-FirstPass.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Run.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3DNS.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ArtilleryInput.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Water\WaterDoubleSided.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\Multiply.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Grayscale.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Halftone.shader" />
+     <None Include="Assets\Extra\Toon_Level_Kit\Documentation\Readme.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\DefaultWeapon.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegun.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkDeferredOptimized.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolZoom.txt" />
+     <None Include="Assets\TerrainEngine\Datas\House02.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\PixelMatrix.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\OldSchoolCamera.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Led.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Standard\Triplanar3NoiseVerticalLocal.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar1DN.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullUpRight.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\TreeLODCombined.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerZoom.txt" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\!WarFX Readme.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Diffuse\VertexColor.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\2xParallaxMapped\GeometryBlend_PM_2VertexPaint_HB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\InfiniteDust\Shaders\Menu\Background\Atmosphere.shader" />
+     <None Include="Assets\TerrainEngine\Datas\House05.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Hidden Shaders\AfsFoliageShader Terrain v4.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\GeometryBlend_BumpedSpecular.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistol.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullUp.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Content\Art\Weapons\Source\BasicArms\_README_BasicArms.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PerspOldInput.txt" />
+     <None Include="Assets\Extra\Illogika\ScriptTemplates\101-C# Custom Keyword-NewKeywordScript.cs.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\AlphaBlended.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Input\InputZoom.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\DrunkWeapon.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\CutoffAlpha.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Posterize.shader" />
+     <None Include="Assets\Standard Assets\SkyBox\_skybox info.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullRight.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Wiggle.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Tree\Tree.cginc" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Includes\AfsFoliageBending.cginc" />
+     <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Input\InputDead.txt" />
+     <None Include="Assets\Extra\VertexPainter\Readme\Readme.txt" />
+     <None Include="Assets\Extra\Nature Pack\enviro_shaders\2-sided Alpha Cutout.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Planet\PlanetaryTerrain guidelines.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolOutOfControl.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\StandardDouble.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Grass\GrassWindLight.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Noise.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Tree\TranslucencyShadow.shader" />
+     <None Include="Assets\Extra\Toon_Level_Kit\ToonResources\Shaders\Vegetation-Lightmap.shader" />
+     <None Include="Assets\Extra\Toon_Level_Kit\ToonResources\Shaders\Glass.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Zoom.txt" />
+     <None Include="Assets\PlayerPrefs.xml" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\ParticleAdditive.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernShooter.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolver.txt" />
+     <None Include="Assets\Standard Assets\Shaders\OnlyShadows.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\CharacterSelfIlluminationReflective.shader" />
+     <None Include="Assets\Extra\AtmosphericScattering\Features\AtmosphericScattering\Code\AtmosphericScattering_Sky.shader" />
+     <None Include="Assets\Extra\ReliefPack\readme.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ImmobileCamera.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Tree\SH_Vertex.cginc" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\ShooterShotgun01Default.txt" />
+     <None Include="Assets\SimpleLOD\ReadMe.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Grass\GrassWindUnlit.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Stars.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\layer count info.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader U5.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\AngryInclude.cginc" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\LensDistortionBlur.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MaceCamera.txt" />
+     <None Include="Assets\TerrainEngine\ConstructionKit\Shaders\TransparentShadow.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Includes\AfsLambertLighting.cginc" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\AdditiveBlend.shader" />
+     <None Include="Assets\TerrainEngine\Datas\House01.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\Rain.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\Skybox\Fantasy_sky_box\Sky_Scripts_Shaders\SkyboxStarOpacity.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Dithering.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ImmobileController.txt" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Non-Dynamic Clouds (Unity 5).shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Strokes.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingLeft.txt" />
+     <None Include="Assets\Extra\uIntelliSense\Editor\Resources\uintellisense-data.xml" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\UnderWater\Shader\Projector Multiply.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MechController.txt" />
+     <None Include="Assets\Extra\AtmosphericScattering\Features\AtmosphericScattering\Code\AtmosphericScattering_Deferred.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\DrunkController.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\ComicBook.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\CustomizableShader2Layers(PBL).shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\WaveDistortion.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\PM_2VertexPaint.shader" />
+     <None Include="Assets\InfiniteDust\Shaders\Menu\Background\Planet BSACE.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar2NoiseBlendDN.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistol.txt" />
+     <None Include="Assets\TerrainEngine\Datas\stuff.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\DrunkCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunReload.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ArtilleryCamera.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Negative.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Standard\Triplanar3Noise.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Crouch.txt" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\Normal-BumpSpec_EnvLightmapped.shader" />
+     <None Include="Assets\Extra\SSAO Pro\Changelog.txt" />
+     <None Include="Assets\Extra\Nature Pack\enviro_shaders\Double_bumped_metalic.shader" />
+     <None Include="Assets\Standard Assets\Shaders\ShadersMisc\Particle Add (Overlay).shader" />
+     <None Include="Assets\TerrainEngine\Datas\ship_0.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Standard\Triplanar3NoiseSplat.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolCrouch.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MechWeapon.txt" />
+     <None Include="Assets\Extra\SSAO Pro\Resources\SSAOPro.cginc" />
+     <None Include="Assets\TerrainEngine\Datas\HouseGroup.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Plugins\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Snow.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3NoiseDNSS.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Planet\ReliefTerrainTriplanarPlanet.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Knife01\KnifeAttackToDownRight.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Extra\AtmosphericScattering\Features\AtmosphericScattering\Shaders\CloudPlaneScatter.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Grenade01\WeaponGrenade01Zoom.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap U5.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\ShadowCaster.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Colorful.cginc" />
+     <None Include="Assets\Standard Assets\Fonts\_NEW Fonts\BigNoodleTitling\Sentinel_Type_Freefont_EULA.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernCameraCrouch.txt" />
+     <None Include="Assets\Extra\HighQualityFlag\Shaders\FlagDoubleSided.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\Skybox\Fantasy_sky_box\Sky_Scripts_Shaders\Skybox-Rotator.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SniperInput.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Diffuse Terrain\UVFreeLegacyTerrainDiffuseFirstPass.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Planet2.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDead.txt" />
+     <None Include="Assets\Standard Assets\Fonts\_NEW Fonts\BigNoodleTitling\ffonts.net.txt" />
+     <None Include="Assets\Extra\uIntelliSense\LICENSE.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingInput.txt" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Moon.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\_Effects (Mobile, Regular Mesh)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\Extra\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexLitIBL.cginc" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Mist Mobile.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Zoom.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\PhotoFilter.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Slide.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\BumpedSpecular&amp;SnowSimple.shader" />
+     <None Include="Assets\Extra\CritterPack\Shaders\EnAn_2sided_transparent.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\HueSaturationValue.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CowboyShooter.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ReliefTerrainPMStandalone_geomblend.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Cut Out Specular.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_2VertexPaint U5.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseLowSensWeapon.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+     <None Include="Assets\TerrainEngine\Datas\box.txt" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\Surface.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Light Clouds Desktop.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingDownLeft.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\BilateralGaussianBlur.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\StompingInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponZoom.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SystemOFFController.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\ShadowsMidtonesHighlights.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar1D.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Specular.shader" />
+     <None Include="Assets\Standard Assets\Fonts\coalition\Font Info.txt" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\Debris.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Lightning.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullDown.txt" />
+     <None Include="Assets\Extra\ReliefPack\Textures\ReliefTerrain\Combined\info.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CrouchInput.txt" />
+     <None Include="Assets\Standard Assets\Fonts\_NEW Fonts\BigNoodleTitling\big_noodle_titling.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\UnderWater\Shader\ProjectorAdd.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\OldSchoolWeapon.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseLowSensInput.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\BumpedSpecular&amp;Snow.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\ChromaticAberration.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\ReliefTerrain2Geometry.shader" />
+     <None Include="Assets\TerrainEngine\Datas\control.txt" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Extra\ReliefPack\Textures\ReliefTerrain\Planet\texture_info.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Default.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\ShadersCommon.cginc" />
+     <None Include="Assets\Standard Assets\Fonts\ProzaK_Buzz\license.txt" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\WarpJumpDistortion.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ControllerMegaSpeed.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\RGBSplit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Zoom.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingUp.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ImmobileWeapon.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunRun.txt" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Non-Dynamic Clouds Mobile.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\ChannelMixer.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\TurretWeapon.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\ContrastVignette.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\RealtimeReflectionReplacement.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\AlphaTest-Diffuse-GEqual.shader" />
+     <None Include="Assets\Standard Assets\Fonts\_NEW Fonts\BigNoodleTitling\install-a-new-font.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MaceWeapon.txt" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Standard Assets\Shaders\BlendedDecal.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Metallic Terrain\UVFreeTerrainStandardMetallic-Base.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\SmartSaturation.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\AstronautCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MechWeaponZoom.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToRight.txt" />
+     <None Include="Assets\Extra\SMAA\Shaders\SMAA.cginc" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\TriplanarToon.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseLowSensCamera.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunZoom.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Standard\UnityStandardInput.cginc" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\DoubleVision.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolver.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\000_readme_Making_GeomBlend_Compliant_Shaders.txt" />
+     <None Include="Assets\Extra\Winter Nature Pack\Tools\Blend SM3.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Bump.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\Skybox\Fantasy_sky_box\Sky_Scripts_Shaders\SkyboxAdditiveScrollerX.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01OutOfControl.txt" />
+     <None Include="Assets\Extra\Winter Nature Pack\Tools\Blend SM2.shader" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Moon Mobile.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingDownRight.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Resources\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\TerrainEngine\Datas\CleanShip.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernWeapon.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PivotChestWeapon.txt" />
+     <None Include="Assets\Extra\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsIBLEmissive.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\PBL deferred info.txt" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\DynamicLookup.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownLeft.txt" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\_Effects (Mobile, Reduced Overdraw)\!Mobile differences.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\ParticleMultiply.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\NebulaStaticBoard.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\UnlitNoFog.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Standard\UnityStandardCore.cginc" />
+     <None Include="Assets\Extra\Desert\Afghanistan\_info.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\ReliefTerrain-AddPass.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\Glassreflect2D.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3NoiseDNSSVerticalLocal.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\CustomLightingLegacy.cginc" />
+     <None Include="Assets\Extra\Toon_Level_Kit\ToonResources\Shaders\Leave.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_FlowMap U5.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Extra\MagicEffectsLightningVol01\Readme.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Hidden Shaders\AfsGrassShader Terrain v4.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Pixelate.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraRun.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\CrossStitch.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CowboyInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraZoom.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Zoom.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\BrightnessContrastGamma.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\Holographic.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_FlowMap_2VertexPaint.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SystemOFFWeaponGlideIn.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SniperWeapon.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SystemOFFCamera.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\HueFocus.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MafiaInput.txt" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\WarpJumpTwist.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\FreezeInput.txt" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Extra\LavaPackage\Sources\Lava.shader" />
+     <None Include="Assets\Extra\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\VertexColorsIBLReflective.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\DiffuseVertexColor.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\LookupFilter3D.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\ExhaustFlame.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_FlowMap.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Includes\AfsBillboardShadow.cginc" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PerspOldCamera.txt" />
+     <None Include="Assets\Extra\ReliefPack\ExampleScenes\ReliefTerrain\TerrainScene Assets\flowMap_generation.txt" />
+     <None Include="Assets\TerrainEngine\Datas\Ship1.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3NoiseDNSSVertical.shader" />
+     <None Include="Assets\Extra\Pirates Island\_origin\Tools\Blend SM2.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\GrainyBlur.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Metallic Terrain\UVFreeTerrainStandardMetallic-AddPass.shader" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Mobile Stars.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Run.txt" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Storm Clouds (Untity 5).shader" />
+     <None Include="Assets\English.xml" />
+     <None Include="Assets\Extra\UFPS\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponGenericSlide.txt" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Additional Credit\Credit.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Levels.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Grass\waves.cginc" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\GlassBuilding.shader" />
+     <None Include="Assets\WorldData.xml" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\HeightFogBeforeTransparent.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\LaserScope.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\DirectionalBlur.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Extra\AtmosphericScattering\readme.txt" />
+     <None Include="Assets\Extra\Sonic Ether\Natural Bloom\Shaders\SEEmissiveTextured.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Sun.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Deferred SingleSided v4.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\ParticleAdditiveBlend.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\TVVignette.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Hidden Shaders\AfsBillboardTree v4.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MafiaWeapon.txt" />
+     <None Include="Assets\Extra\Colorful FX\Changelog.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\EnemySelfIlluminationReflective.shader" />
+     <None Include="Assets\Extra\AtmosphericScattering\Shaders\SkyboxHDR.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Cut Out Opaque Specular.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\DrunkInput.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Demo\Demo Notes.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\InfiniteDust\Shaders\Menu\Background\Planet BAE.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Crouch.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\OldSchoolShooter.txt" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Rain.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\Weapons\Axes\Double Axe\Metallic_Glow.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\Skybox\Fantasy_sky_box\Sky_Scripts_Shaders\MapFantasy_Skybox_MaskFilament.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\ChannelSwapper.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MechShooter.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Content\Levels\SkyCity\CustomShaders\Scroll_Emissive.shader" />
+     <None Include="Assets\Extra\CodeStage\AdvancedFPSCounter\API.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MechInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToLeft.txt" />
+     <None Include="Assets\Extra\Dungeon Breaker\Models\Animation.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\LookupFilter.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\AnalogTV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\TurretCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CowboyWeapon.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\VertexControl\ReliefTerrainPMTriplanarStandalone Tessellation(Phong).shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3N.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Demos\00 Shared Assets\Textures\Terrain Textures\Nobiax Sand Texture.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Specular Terrain\UVFreeLegacyTerrainSpecular-AddPass.shader" />
+     <None Include="Assets\Extra\AtmosphericScattering\Features\AtmosphericScattering\Shaders\StandardScatterSpecularSurface.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Diffuse\UVFreeLegacyDiffuse.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Dynamic Snow.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\Alpha-VertexLitGlow02.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PivotElbowWeapon.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\2xParallaxMapped\GeometryBlend_PM_2VertexPaint.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Run.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Includes\AfsBlinnPhongLightingFull.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\BackgroundAndCharacters\Fallback.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Fonts\outline\READ ME-KCFonts.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Standard\GeomBlend_Standard.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\WallFacingInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MafiaCameraCrouch.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\DefaultInput.txt" />
+     <None Include="Assets\TerrainEngine\Datas\SquarePlanter.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\AstronautInput.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Metallic\UVFreeStandardMetallic.shader" />
+     <None Include="Assets\Extra\Colorful FX\Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\InfiniteDust\Shaders\Menu\Background\Planet BA.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_2VertexPaint U5.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Kuwahara.cginc" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernWeaponZoom.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar2D.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MafiaShooterZoom.txt" />
+     <None Include="Assets\InfiniteDust\Shaders\Menu\Background\SpaceBox3Level.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_HB.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_2VertexPaint_HB U5.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\WarpTunnel.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PerspModernWeapon.txt" />
+     <None Include="Assets\Extra\AtmosphericScattering\Features\AtmosphericScattering\Code\AtmosphericScattering_Occlusion.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Diffuse\UVFreeLegacyDiffuseTopBottom.shader" />
+     <None Include="Assets\Extra\Nature Pack\enviro_shaders\Double_bump2_spec.shader" />
+     <None Include="Assets\Extra\UniStorm (Desktop)\Scripts (Desktop)\Shaders\Current\UniStorm Non-Dynamic Light Clouds.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
+     <None Include="Assets\TerrainEngine\ReadMe.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PerspModernCamera.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Default.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernControllerZoom.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToUp.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_HB U5.shader" />
+     <None Include="Assets\Extra\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\Extra\HighQualityFlag\Shaders\FlagDoubleSidedNormal.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\TerrainEngine\ConstructionKit\Shaders\DiffuseBump.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernShooterZoom.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Internal\ReliefTerrainBlendBaseCutout.shader" />
+     <None Include="Assets\Extra\AtmosphericScattering\Features\AtmosphericScattering\Shaders\UnityPBSLighting.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Sun Mobile.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Letterbox.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Recipes.xml" />
+     <None Include="Assets\TerrainEngine\Datas\console.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Camera\CameraSlide.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Specular\UVFreeLegacySpecularTopBottom.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MechCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CowboyShooterZoom.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\Includes\AfsBlinnPhongLighting.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\TwoSidedTransparent.shader" />
+     <None Include="Assets\TerrainEngine\ConstructionKit\Shaders\TransparentDLitShadow.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ModernCameraZoomInput.txt" />
+     <None Include="Assets\Extra\Aluna\VegetationAmbiantLight.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityInput.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\OldSchoolController.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunOutOfControl.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Assets\UnderWater\Shader\Projector Light.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SniperCamera.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ParallaxMapped\GeometryBlend_PM.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\SmokeTurbulent.shader" />
+     <None Include="Assets\TerrainEngine\Datas\House03.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Diffuse\Diffuse.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\VertexColor.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityWeapon.txt" />
+     <None Include="Assets\Extra\Quantum Theory\Polyworld\Shaders\VertexColors\IBL\QT_Cubemaps.cginc" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Crouch.txt" />
+     <None Include="Assets\TerrainEngine\Datas\SimpleHouse01.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Metallic Terrain\UVFreeTerrainStandardMetallic-FirstPass.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Default.txt" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsFoliageShader v4.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Diffuse Terrain\UVFreeLegacyTerrainDiffuseAddPass.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsGrassShader v4.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Default.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\ParticleBlend.shader" />
+     <None Include="Assets\Extra\AtmosphericScattering\Features\AtmosphericScattering\Code\AtmosphericScattering.cginc" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\WeaponsHD\Knife01\KnifeAttackToDownLeft.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_2VertexPaint_HB U5.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponCrouch.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\AstronautController.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\LookupFilter2D.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Cut Out Opaque Bump.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\TreeLOD.shader" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Frost.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Internal\ReliefTerrainGeometryBlendBase.shader" />
+     <None Include="Assets\Extra\FORGE3D\Sci-Fi Effects\Shaders\Additive.shader" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Dynamic Storm Clouds Mobile.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3SolidNoisePalD.shader" />
+     <None Include="Assets\Extra\JMO Assets\WarFX\_Effects (Mobile, Regular Mesh)\!Mobile differences.txt" />
+     <None Include="Assets\Extra\TerrainEngine\Scenes\Hexagonal\Other Assets\Example\Shaders\Fx\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\TurretShooter.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\ImmobileInput.txt" />
+     <None Include="Assets\Extra\Colorful FX\Shaders\Convolution3x3.shader" />
+     <None Include="Assets\Extra\Medieval Environment\Shaders\Blend SM2.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\MirrorReflectionLit.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+     <None Include="Assets\InfiniteDust\Shaders\Menu\Background\Planet Ring.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\Unlit-AlphaTestDoubleSided.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsTreeCreatorBark.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SniperShooter.txt" />
+     <None Include="Assets\Extra\CodeStage\AdvancedFPSCounter\Changelog.txt" />
+     <None Include="Assets\Standard Assets\Fonts\coalition\COG 2  info.txt" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\TransparentLightMappedVertexLiZWrite.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\ReliefTerrain-FarOnly.shader" />
+     <None Include="Assets\InfiniteDust\Shaders\Game\Sky Objects\Lighting Only.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Triplanar3NoiseDNSSSplat.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponCrouch.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface SFX Depth Write Only.shader" />
+     <None Include="Assets\Extra\VertexPainter\Shaders\VertexBlend.shader" />
+     <None Include="Assets\Extra\HighQualityFlag\PC2anims\flag_calm.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Content\Levels\SkyCity\CustomShaders\SimpleEmissive.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\FreezeCamera.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunOutOfControl.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\RTP_AddBase.cginc" />
+     <None Include="Assets\TerrainEngine\Shaders\Triplanar\Standard\Triplanar3NoiseLocal.shader" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Standard\GeomBlend_StandardSpecular.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MouseSmoothingWeapon.txt" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Standard PBR\Standard Specular\UVFreeStandardSpecular.shader" />
+     <None Include="Assets\SimpleLOD\Demo\Shaders\Alpha-Diffuse-ZWrite.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\PivotWristWeapon.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\SimpleAIShooter.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\AstronautWeapon.txt" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverOutOfControl.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownRight.txt" />
+     <None Include="Assets\Extra\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader U5.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDefault.txt" />
+     <None Include="Assets\TerrainEngine\Shaders\Transparent\RIMTransparent.shader" />
+     <None Include="Assets\Extra\UVFreeShaders\Shaders\UVFree\Legacy\Specular Terrain\UVFreeLegacyTerrainSpecular-Base.shader" />
+     <None Include="Assets\Extra\Advanced Foliage Shader v4\Shaders\AfsFoliageShader Deferred v4.shader" />
+     <None Include="Assets\Extra\UFPS\Base\Content\Art\Body\Materials\InvisibleShadowCaster.shader" />
+     <None Include="Assets\Extra\UniStorm (Mobile)\Scripts (Mobile)\Shaders\Current\Mobile\UniStorm Procedural Skbox Mobile.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="LostPolygon.uIntelliSense">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Extra/uIntelliSense/Editor/Assemblies/LostPolygon.uIntelliSense.dll</HintPath>
+ </Reference>
+ <Reference Include="LostPolygon.uIntelliSense.Internal.MacInterop">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Extra/uIntelliSense/Editor/Assemblies/LostPolygon.uIntelliSense.Internal.MacInterop.dll</HintPath>
+ </Reference>
+ <Reference Include="fastJSON">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Extra/uIntelliSense/Editor/Plugins/fastJSON.dll</HintPath>
+ </Reference>
+ <Reference Include="HtmlAgilityPack">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Extra/uIntelliSense/Editor/Plugins/HtmlAgilityPack.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.CJK">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Plugins/I18N.CJK.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.MidEast">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Plugins/I18N.MidEast.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.Other">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Plugins/I18N.Other.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.Rare">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Plugins/I18N.Rare.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.West">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Plugins/I18N.West.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>F:/Infinite-Dust/Infinite Dust 0.1-2/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F6367EEB-4D92-416C-193D-8D7D7595DF10}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
